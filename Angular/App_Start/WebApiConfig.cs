@@ -16,7 +16,8 @@ namespace Angular
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "Scripts/angular.js",
+                
                 defaults: new { id = RouteParameter.Optional }
             );
         }

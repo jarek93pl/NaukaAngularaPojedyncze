@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Lista2";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Zadanie</th>
+            <th>Zrobione</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in todos">
+            <td>To jest element numer {{item.action}}.</td>
+        </tr>
+    </tbody>
+</table>  
+
