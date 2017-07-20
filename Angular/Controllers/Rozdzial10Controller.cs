@@ -5,25 +5,26 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace Angular.Controllers
-{
-    public class Rozdział9Controller : Controller
+{//formularze
+    public class Rozdzial10Controller : Controller
     {
-        // GET: Rozdział9 dykrektywy przesuniecie rozdziałów o jeden
+        // GET: Rozdzial10
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult Lista1()
+        public ActionResult I2()
         {
             return View();
         }
-        public ActionResult Lista2()
+        public ActionResult I3()
         {
             return View();
         }
-        public ActionResult NGSwitch()
+        public ActionResult GroubSelect()
         {
             return View();
         }
     }
+  
 }
