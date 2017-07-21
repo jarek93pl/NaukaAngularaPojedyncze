@@ -918,12 +918,14 @@
     <Content Include="Views\Rozdział9\Lista1.cshtml" />
     <Content Include="Views\Rozdział9\Lista2.cshtml" />
     <Content Include="Views\Rozdział9\NGSwitch.cshtml" />
+    <Content Include="Views\Rozdzial10\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BoundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Rozdzial10Controller.cs" />
     <Compile Include="Controllers\Rozdział9Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
