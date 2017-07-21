@@ -8,7 +8,7 @@ namespace Angular.Controllers
 {
     public class Rozdział9Controller : Controller
     {
-        // GET: Rozdział9
+        // GET: Rozdział9 dykrektywy przesuniecie rozdziałów o jeden
         public ActionResult Index()
         {
             return View();
