@@ -1172,7 +1172,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Rozdzial10\Index.cshtml" />
     <Content Include="Views\Rozdzial10\I2.cshtml" />
     <Content Include="Views\Rozdzial10\I3.cshtml" />
     <Content Include="Views\Rozdzial10\GroubSelect.cshtml" />
