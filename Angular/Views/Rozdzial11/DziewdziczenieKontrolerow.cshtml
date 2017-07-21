@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Kontrolery</title>
+        @Html.Action("NG", "Home")
+        <script src="~/Scripts/Filter/R11_1.js"></script>
+</head>
+<body ng-controller="topLevelCtrl">
+    <div class="well">
+    <h4>Kontroler najwyższego poziomu</h4>
+    <div class="input-group">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click="reverseText()">Odwróć kolejność liter</button>
+        <button class="btn btn-default" type="button" ng-click="changeCase()">Zmień wielkość liter</button>
+       </span> 
+        <input class="form-control" ng-model="dataValue">
+        </div>
+    </div>
+    <div class="well" ng-controller="firstChildCtrl">
+    <h4>Pierwszy kontroler potomny</h4> 
+    <div class="input-group">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click="reverseText()">Odwróć kolejność liter</button>
+        <button class="btn btn-default" type="button" ng-click="changeCase()">Zmień wielkość liter</button>            </span> 
+        <input class="form-control" ng-model="dataValue">
+        </div>
+    </div>
+    <div class="well" ng-controller="secondChildCtrl">
+    <h4>Drugi kontroler potomny</h4>
+    <div class="input-group"> 
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click="reverseText()">Odwróć kolejność liter</button>
+        <button class="btn btn-default" type="button" ng-click="changeCase()">Zmień wielkość liter</button> 
+        <button class="btn btn-default" type="button" ng-click="shiftFour()">Zmień cztery litery na duże</button> 
+       </span>
+        <input class="form-control" ng-model="dataValue"> 
+        </div>
+    </div>
+</body>
+</html>

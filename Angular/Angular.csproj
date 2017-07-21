@@ -404,6 +404,9 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Filter\Filtr.js" />
     <Content Include="Scripts\Filter\Controler.js" />
+    <Content Include="Scripts\Filter\R11_1Poprawna.js" />
+    <Content Include="Scripts\Filter\R11_1.js" />
+    <Content Include="Scripts\Filter\R12Filtry.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
     <Content Include="Scripts\i18n\angular-locale_af-za.js" />
     <Content Include="Scripts\i18n\angular-locale_af.js" />
@@ -1158,7 +1161,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\R13DyrektywyController.cs" />
     <Compile Include="Controllers\Rozdzial10Controller.cs" />
+    <Compile Include="Controllers\Rozdzial11Controller.cs" />
+    <Compile Include="Controllers\Rozdzial12Controller.cs" />
     <Compile Include="Controllers\Rozdział9Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1175,6 +1181,15 @@
     <Content Include="Views\Rozdzial10\I2.cshtml" />
     <Content Include="Views\Rozdzial10\I3.cshtml" />
     <Content Include="Views\Rozdzial10\GroubSelect.cshtml" />
+    <Content Include="Views\Rozdzial11\Index.cshtml" />
+    <Content Include="Views\Home\NG.cshtml" />
+    <Content Include="Views\Rozdzial11\DwaKontrolery.cshtml" />
+    <Content Include="Views\Rozdzial11\DziewdziczenieKontrolerow.cshtml" />
+    <Content Include="Views\Rozdzial11\DziewdziczenieKontrolerowPoprawne.cshtml" />
+    <Content Include="Views\Rozdzial11\This.cshtml" />
+    <Content Include="Views\Rozdzial12\Index.cshtml" />
+    <Content Include="Views\R13Dyrektywy\Index.cshtml" />
+    <Content Include="Views\Shared\NG.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

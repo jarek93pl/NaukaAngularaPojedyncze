@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    @Html.Action("NG","Home")
+    <script>    
+    var app = angular.module("exampleApp", [])   
+    .controller("simpleCtrl", function () {     
+    this.dataValue = "Witaj, Adam";         
+    this.reverseText = function () {         
+    this.dataValue = this.dataValue.split("").reverse().join("");  
+        }
+    });    </script>
+</head>
+<body>
+    <div class="well" ng-controller="simpleCtrl as ctrl"> 
+    <h4>Kontroler najwyższego poziomu</h4>     
+    <div class="input-group">    
+        <span class="input-group-btn">    
+        <button class="btn btn-default" type="button" ng-click="ctrl.reverseText()">Odwróć kolejność liter</button> 
+            </span>            <input class="form-control" ng-model="ctrl.dataValue">  
+        </div>   
+    </div>
+</body>
+</html>

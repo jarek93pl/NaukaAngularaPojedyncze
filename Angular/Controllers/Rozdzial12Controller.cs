@@ -6,16 +6,12 @@ using System.Web.Mvc;
 
 namespace Angular.Controllers
 {
-    public class HomeController : Controller
+    public class Rozdzial12Controller : Controller
     {
-        // GET: Home
+        // GET: Rozdzial12
         public ActionResult Index()
         {
             return View();
-        }
-        public ActionResult NG()
-        {
-            return PartialView();
         }
     }
 }
