@@ -17,6 +17,10 @@ namespace Angular.Controllers
         {
             return View();
         }
+        public ActionResult Transclude()
+        {
+            return View();
+        }
         public ActionResult NapisywanieZakresu()//i wspódzielenie
         {
             return View();
