@@ -17,5 +17,13 @@ namespace Angular.Controllers
         {
             return View();
         }
+        public ActionResult NapisywanieZakresu()//i wspódzielenie
+        {
+            return View();
+        }
+        public ActionResult ZakresZMetodą()
+        {
+            return View();
+        }
     }
 }

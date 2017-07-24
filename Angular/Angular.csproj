@@ -1197,6 +1197,8 @@
     <Content Include="Views\R15JqLite\Jquery.cshtml" />
     <Content Include="Views\R16Dyrektywy\Index.cshtml" />
     <Content Include="Views\R16Dyrektywy\DwaZakresyISzablon.cshtml" />
+    <Content Include="Views\R16Dyrektywy\NapisywanieZakresu.cshtml" />
+    <Content Include="Views\R16Dyrektywy\ZakresZMetodą.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
