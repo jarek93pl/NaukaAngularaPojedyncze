@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Produkty</title>
+        @Html.Action("NG", "Home")
+        <script src="~/Scripts/Dyrektywy/R20Product.js"></script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="panel panel-primary">  
+    <h3 class="panel-heading">Produkty</h3>    
+    <ng-include src="'tableView.html'" ng-show="displayMode == 'list'">    
+        </ng-include>    
+    <ng-include src="'Editor.html'" ng-show="displayMode == 'edit'">   
+        </ng-include>    
+    </div>
+</body>
+</html>
