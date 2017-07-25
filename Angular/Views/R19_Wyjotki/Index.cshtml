@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Wyjątki</title>@Html.Action("NG","Home")
+    <script>        angular.module("exampleApp", [])   
+    .controller("defaultCtrl", function ($scope) {   
+    $scope.throwEx = function () {         
+    throw new Error("Zgłoszono wyjątek");  
+    }        }); 
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="panel panel-default"> 
+    <div class="panel-body">       
+        <button class="btn btn-primary" ng-click="throwEx()">Zgłoś wyjątek</button>  
+        </div> 
+    </div>
+</body>
+</html>

@@ -380,6 +380,7 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Dyrektywy\R18Dyrektywy.js" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-touch.min.js.map" />
@@ -1164,6 +1165,10 @@
     <Compile Include="Controllers\R13DyrektywyController.cs" />
     <Compile Include="Controllers\R15JqLiteController.cs" />
     <Compile Include="Controllers\R16DyrektywyController.cs" />
+    <Compile Include="Controllers\R18ModulyController.cs" />
+    <Compile Include="Controllers\R19StaleGlobalneController.cs" />
+    <Compile Include="Controllers\R19_2_RoutingController.cs" />
+    <Compile Include="Controllers\R19_WyjotkiController.cs" />
     <Compile Include="Controllers\Rozdzial10Controller.cs" />
     <Compile Include="Controllers\Rozdzial11Controller.cs" />
     <Compile Include="Controllers\Rozdzial12Controller.cs" />
@@ -1200,6 +1205,15 @@
     <Content Include="Views\R16Dyrektywy\NapisywanieZakresu.cshtml" />
     <Content Include="Views\R16Dyrektywy\ZakresZMetodą.cshtml" />
     <Content Include="Views\R16Dyrektywy\Transclude.cshtml" />
+    <Content Include="Views\R18Moduly\Index.cshtml" />
+    <Content Include="Views\R19StaleGlobalne\Index.cshtml" />
+    <Content Include="Views\R19StaleGlobalne\JLite.cshtml" />
+    <Content Include="Views\R19StaleGlobalne\Interval.cshtml" />
+    <Content Include="Views\R19_2_Routing\Index.cshtml" />
+    <Content Include="Views\R19StaleGlobalne\Scrol.cshtml" />
+    <Content Include="Views\R19_Wyjotki\Index.cshtml" />
+    <Content Include="Views\R19_Wyjotki\WyjątekOpsurzony.cshtml" />
+    <Content Include="Views\R19StaleGlobalne\Parse.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

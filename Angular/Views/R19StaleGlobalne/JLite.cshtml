@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="exampleApp">
+<head>
+    <title>Usługi API DOM</title>@Html.Action("NG","Home")
+    <script>        angular.module("exampleApp", [])
+            .controller("defaultCtrl",
+            function ($scope, $window, $document)
+            {
+                $document.find("button").on("click", function (event)
+                {
+                    $window.alert(event.target.innerText);
+                });
+            });    </script>
+</head>
+<body ng-controller="defaultCtrl" class="well">
+    <button class="btn btn-primary">Kliknij mnie</button>
+</body>
+</html>
